@@ -22,9 +22,8 @@ const odds = arr.filter((val) => {
 console.log(odds);
 
 // Reduce (returns a single answer developed from all elements of array)
-const nums = [1, 2, 3, 5, 4];
-const sum = nums.reduce((prev, curr) => {
+const max = arr.reduce((prev, curr) => {
     return (prev>curr)?prev:curr;
 });
 
-console.log(sum);
+console.log(max);

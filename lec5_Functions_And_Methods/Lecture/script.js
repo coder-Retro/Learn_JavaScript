@@ -1,6 +1,11 @@
-// Call Back Function
+// Given Array
 const arr = [1, 2, 3, 4, 5];
 
+// Callback Function
+/*
+Functions passed as arguments to other functions
+are called callBack Functions
+*/
 
 // ForEach (performs a function for each element)
 arr.forEach((val) => {

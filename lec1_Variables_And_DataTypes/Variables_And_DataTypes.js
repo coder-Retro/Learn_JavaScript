@@ -74,3 +74,13 @@ console.log(student);
 
 console.log("student =", student);
 console.log("Type of student =", typeof student);
+
+/*
+We can also print specific value from an object using the key of that value. Like in our student object, the key of "Suhana" is name, the key of 19 is age and the key of 1000 is rollNo
+*/
+
+console.log(student["name"]); // prints Suhana
+console.log(student["age"]); // prints 19
+console.log(student["rollNo"]); // prints 1000
+
+// Note: key is enclosed in double quotes inside the square brackets
